@@ -235,10 +235,12 @@ body{
 	background: var(--secondary-color);
 	display: none;
 	user-select: none;
+	z-index:99999;
 }
 
 .mobile-nav.active{
 	display: block;
+	z-index:9999;
 }
 
 .mobile-nav ul{
