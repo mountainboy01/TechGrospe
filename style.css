@@ -238,11 +238,16 @@ body{
 	background: var(--secondary-color);
 	display: none;
 	user-select: none;
+<<<<<<< HEAD
 	z-index: 9999;
+=======
+	z-index:99999;
+>>>>>>> 20d5eb6db447766955e039a8e5c429ac7d87f694
 }
 
 .mobile-nav.active{
 	display: block;
+	z-index:9999;
 }
 
 .mobile-nav ul{
@@ -352,7 +357,11 @@ body{
 .project .project-content .row .col .project-list .project-data{
 	color: var(--primary-color);
 	background: transparent;
+<<<<<<< HEAD
 	padding: 15px 0px;
+=======
+	padding: 20px 0px;
+>>>>>>> 20d5eb6db447766955e039a8e5c429ac7d87f694
 	border-radius: 40px 0px 40px 0px;
 	text-align: center;
 }
