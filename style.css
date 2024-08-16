@@ -238,11 +238,7 @@ body{
 	background: var(--secondary-color);
 	display: none;
 	user-select: none;
-<<<<<<< HEAD
-	z-index: 9999;
-=======
 	z-index:99999;
->>>>>>> 20d5eb6db447766955e039a8e5c429ac7d87f694
 }
 
 .mobile-nav.active{
@@ -357,11 +353,8 @@ body{
 .project .project-content .row .col .project-list .project-data{
 	color: var(--primary-color);
 	background: transparent;
-<<<<<<< HEAD
 	padding: 15px 0px;
-=======
 	padding: 20px 0px;
->>>>>>> 20d5eb6db447766955e039a8e5c429ac7d87f694
 	border-radius: 40px 0px 40px 0px;
 	text-align: center;
 }
@@ -754,26 +747,9 @@ body{
 
 @media only screen and (max-width: 576px){
 .industry .row{
-	grid-template-columns: repeat(2 , 1fr);
+	grid-template-columns: repeat(1 , 1fr);
 }
 
-.industry .col .industry-content .industry-data .industry-img{
-	height: 40px;
-	width: 40px;
-	border-radius: 50%;
-}
-
-.industry .col .industry-content .industry-data .industry-img img{
-	height: 20px;
-}
-
-.industry .col .industry-content .industry-data .industry-text h1{
-	font-size: 0.5rem;
-}
-
-.industry .col .industry-content .industry-link a{
-	font-size: 0.4rem;
-}
 }
 
 
