@@ -755,3 +755,326 @@ body{
 
 /*******************INDUSTRY SECTION CSS**************************/
 
+/*******************HIRE SECTION CSS**************************/
+.hire{
+	width: 100%;
+	background: var(--secondary-color);
+	padding: 100px 20px;
+}
+
+.hire .row{
+	display: flex;
+	grid-gap: 20px;
+	background: var(--dark-blue);
+	padding: 100px 0px;
+}
+
+.hire .row .col{
+	flex:1;
+	position: relative;
+}
+
+.hire .row .col .hire-img{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 0px 20px;
+}
+
+.hire .row .col .hire-img img{
+	position: absolute;
+	top:-200px;
+}
+
+.hire .row .col .hire-text{
+	color: var(--primary-color);
+	padding: 0px 20px;
+}
+
+.hire .row .col .hire-text h1{
+	margin-bottom: 30px;
+}
+
+.hire .row .col .hire-text p{
+	text-align: justify;
+}
+
+
+
+/*******************HIRE MEDIA QUERY**************************/
+@media only screen and (max-width: 768px){
+.hire{
+	padding: 30px 20px;
+}
+
+.hire .row{
+	flex-direction: column;
+	padding: 50px 0px;
+}
+
+.hire .row .col .hire-img img{
+	position: relative;
+	top:0px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+}
+
+/*******************HIRE SECTION CSS**************************/
+
+/*******************SKILL SECTION CSS**************************/
+.skill{
+	background: var(--secondary-color);
+}
+
+.skill .row{
+	display: flex;
+	align-items: center;
+	grid-gap: 30px;
+}
+
+.skill .row .col{
+	padding: 0px 20px;
+}
+
+.skill .row .col .skill-text{
+	color: var(--primary-color);
+	margin-bottom: 40px;
+}
+
+.skill .row .col .skill-text h1{
+	margin-bottom: 30px;
+}
+
+.skill .row .col .skill-items{
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-gap: 30px;
+}
+
+.skill .row .col .skill-items .item{
+	color: var(--primary-color);
+	display: flex;
+	grid-gap: 10px;
+	align-items: center;
+}
+
+.skill .row .col .skill-items .item .icon img{
+	height: 40px;
+}
+
+.skill .row .col .skill-items .item .text h4{
+	font-weight: normal;
+}
+
+
+/*******************SKILLS MEDIA QUERY**************************/
+@media only screen and (max-width: 768px){
+.skill .row{
+	flex-direction: column-reverse;
+}
+
+.skill .row .col{
+	padding: 0px 10px;
+}
+
+.skill .row .col .skill-img img{
+	width: 100%;
+
+}
+}
+
+@media only screen and (max-width: 576px){
+.skill .row .col .skill-items .item .icon img{
+	height: 30px;
+}
+
+.skill .row .col .skill-items .item .text h4{
+	font-size: 0.8rem;
+}
+}
+/*******************SKILL SECTION CSS**************************/
+
+/*******************OUR PROJECTS SECTION CSS**************************/
+.our-projects{
+	width: 100%;
+	background: var(--secondary-color);
+	padding: 60px 20px;
+}
+
+.our-projects .title{
+	max-width: var(--max-width);
+	margin:0px auto;
+	text-align: center;
+	padding: 0px 20px;
+	color: var(--primary-color);
+	margin-bottom: 30px;
+}
+
+.our-projects .title h1{
+	margin-bottom: 20px;
+	font-size: 2rem;
+}
+
+.our-projects .title p{
+	margin-bottom: 50px;
+}
+
+.our-projects .row{
+	max-width: var(--max-width);
+	margin:0px auto;
+	display: flex;
+	padding: 0px 30px;
+}
+
+.our-projects .row .col{
+   padding: 0px 10px;
+   margin-bottom: 10px;
+}
+
+.our-projects .row .img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+/*******************OUR PROJECTS MEDIA QUERY**************************/
+@media only screen and (max-width: 576px){
+.our-projects{
+	padding: 30px 10px;
+}
+
+.our-projects .title{
+    padding: 0px 10px;
+    margin-bottom: 0px;
+}
+
+.our-projects .row{
+	padding: 0;
+}
+
+.our-projects .row .col{
+   padding: 0px 5px;
+   margin-bottom: 5px;
+}
+
+}
+/*******************OUR PROJECTS SECTION CSS**************************/
+
+/*******************OUR CLIENT SECTION CSS**************************/
+.our-client{
+	width: 100%;
+	background: var(--secondary-color);
+	padding: 60px 20px;
+}
+
+.our-client .row{
+	max-width: var(--max-width);
+	background: var(--dark-blue);
+	margin:0px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.our-client .row .col{
+	flex:1;
+}
+
+.our-client .row .col .client-text{
+    padding: 30px 20px;
+    color: var(--primary-color);
+}
+
+.our-client .row .col .client-text h1{
+  margin-bottom: 30px;
+}
+
+.our-client .row .col .client-text ul li{
+	margin-bottom: 20px;
+	font-size: 0.9rem;
+}
+
+.our-client .row .col .client-text ul li i{
+	margin-right: 10px;
+}
+
+.our-client .row .col .client-img{
+}
+
+.our-client .row .col .client-img img{
+	width: 100%;
+	display: flex;
+	object-fit: cover;
+}
+
+
+/*******************OUR CLIENT MEDIA QUERY**************************/
+@media only screen and (max-width: 768px){
+.our-client{
+	padding: 30px 20px;
+}
+
+.our-client .row{
+	flex-direction: column;
+}
+
+.our-client .row .col .client-text{
+    padding: 30px 10px;
+}
+
+}
+
+/*******************OUR CLIENT SECTION CSS**************************/
+
+/*******************ABOUT US SECTION CSS**************************/
+.about-us{
+	width: 100%;
+	background: var(--secondary-color);
+}
+
+.about-us .row{
+	display: flex;
+	grid-gap: 30px;
+}
+
+.about-us .row .col{
+	flex:1;
+}
+
+.about-us .row .col .about-text{
+	color: var(--primary-color);
+	padding: 40px 0px;
+}
+
+.about-us .row .col .about-text h1{
+	margin-bottom: 30px;
+	font-size: 2rem;
+}
+
+.about-us .row .col .about-text p{
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.about-us .row .col .about-text a{
+	display: flex;
+	grid-gap: 10px;
+	align-items: center;
+	color: var(--blue-color);
+	margin-top: 50px;
+}
+
+.about-us .row .col .about-img img{
+	width: 100%;
+}
+
+
+/*******************ABOUT US MEDIA QUERY**************************/
+@media only screen and (max-width: 768px){
+.about-us .row{
+	flex-direction: column;
+}	
+}
+
+/*******************ABOUT US SECTION CSS**************************/
