@@ -27,3 +27,33 @@ window.addEventListener("scroll",()=>{
 });
 
 /*********** NAVBAR SCROLL************/
+
+/*********** TESTOMONIAL ************/
+
+var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      //spaceBetween: 5,
+      slidesPerView: 3,
+      freeMode: true,
+      watchSlidesProgress: true,
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      //spaceBetween: 5,
+      freeMode: true,
+      watchSlidesProgress: true,
+      thumbs: {
+        swiper: swiper,
+      },
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+    });
+
+
+    /*********** TESTOMONIAL ************/
