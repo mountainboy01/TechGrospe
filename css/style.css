@@ -628,8 +628,12 @@ body{
 }
 
 .standard .title h1{
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	font-size: 2rem;
+}
+
+.standard .title p{
+	margin-bottom: 40px;
 }
 
 .standard .standard-img , .standard-img img{
@@ -639,12 +643,18 @@ body{
 
 /*******************STANDARDR MEDIA QUERY**************************/
 @media only screen and (max-width: 768px){
+.standard{
+	padding: 30px 20px;
+}
+
 .standard .container{
-	padding: 20px 10px;
+	padding: 20px 0px;
 }
-.standard .title{
-	//padding: 0px 0px;
+
+.standard .title p{
+	margin-bottom: 10px;
 }
+
 }
 
 /*******************OUR STANDARD SECTION**************************/
