@@ -1063,6 +1063,7 @@ body{
 	align-items: center;
 	color: var(--blue-color);
 	margin-top: 50px;
+	font-size: 0.9rem;
 }
 
 .about-us .row .col .about-img img{
