@@ -49,9 +49,43 @@ window.addEventListener("scroll",()=>{
       },
        autoplay: {
         delay: 2500,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       },
     });
 
 
-    /*********** TESTOMONIAL ************/
+/*********** TESTOMONIAL ************/
+
+/*********** SPONSOR ************/
+$(document).ready(function() {
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplayHoverPause:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+
+        500:{
+            items:3,
+            nav:false
+        },
+        800:{
+            items:5,
+            nav:false
+        },
+        1000:{
+            items:7,
+            nav:true,
+            loop:false
+        }
+    }
+})
+})
+
+ /*********** SPONSOR ************/
