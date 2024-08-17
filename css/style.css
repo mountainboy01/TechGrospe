@@ -1147,7 +1147,7 @@ body{
     opacity: 0.4;
 }
 
-.mySwiper .swiper-slide-active {
+.mySwiper .swiper-slide-thumb-active {
       opacity: 1;
 }
 
@@ -1200,21 +1200,29 @@ body{
 	color: var(--cyan-color);
 }
 
-.testomonial-container .testomonial-img img{
+.testomonial-img{
     height: 80px;
     width: 80px;
+}
+
+.testomonial-img img{
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
-.swiper-slide-active .testomonial-img{
+
+.swiper-slide-thumb-active .testomonial-img{
     height: 100px;
     width: 100px;
 }
 
-.swiper-slide-active .testomonial-img img{
+.swiper-slide-thumb-active .testomonial-img img{
     height: 100%;
     width: 100%; 
+    border-radius: 50%;
 }
+
 
 @media only screen and (max-width: 768px){
 .testomonial-container {
@@ -1237,20 +1245,27 @@ body{
 	font-size: 2.5rem;
 }
 
-.testomonial-container .testomonial-img img{
+.testomonial-img{
     height: 50px;
     width: 50px;
+}
+
+.testomonial-img img{
+    height: 100%;
+    width: 100%;
     border-radius: 50%;
 }
 
-.swiper-slide-active .testomonial-img{
+
+.swiper-slide-thumb-active .testomonial-img{
     height: 70px;
     width: 70px;
 }
 
-.swiper-slide-active .testomonial-img img{
+.swiper-slide-thumb-active .testomonial-img img{
     height: 100%;
     width: 100%; 
+    border-radius: 50%;
 }
 }
 /*******************TESTOMONIAL SECTION CSS**************************/

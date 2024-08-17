@@ -30,9 +30,8 @@ window.addEventListener("scroll",()=>{
 
 /*********** TESTOMONIAL ************/
 
-var swiper = new Swiper(".mySwiper", {
+ var swiper = new Swiper(".mySwiper", {
       loop: true,
-      //spaceBetween: 5,
       slidesPerView: 3,
       freeMode: true,
       watchSlidesProgress: true,
@@ -43,11 +42,10 @@ var swiper = new Swiper(".mySwiper", {
     });
     var swiper2 = new Swiper(".mySwiper2", {
       loop: true,
-      //spaceBetween: 5,
       freeMode: true,
       watchSlidesProgress: true,
       thumbs: {
-        //swiper: swiper,
+        swiper: swiper,
       },
        autoplay: {
         delay: 2500,
