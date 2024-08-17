@@ -1599,6 +1599,11 @@ color: var(--primary-color);
 
 .contact .row .col .form .input-box .radio{
 	margin-bottom: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	grid-gap: 20px;
 }
 
 .contact .row .col .form .input-box .radio label{
@@ -1874,6 +1879,10 @@ color: var(--primary-color);
 @media only screen and (max-width: 768px){
 .footer .row .col{
 	margin-bottom: 40px;
+}
+
+.footer .row .col p{
+	max-width: 100%;
 }
 }
 
