@@ -1323,6 +1323,10 @@ body{
 	color: var(--secondary-color);
 	padding: 30px 20px;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .why-choose .row .col .text h2{
@@ -1354,6 +1358,14 @@ body{
 
 .why-choose .row .col:hover{
 	transform: scale(0.96);
+}
+
+/*******************WHY CHOOSE MEDIA QUERY**************************/
+
+@media only screen and (max-width: 768px){
+.why-choose{
+	padding: 60px 10px;
+}
 }
 
 /*******************WHY CHOOSE SECTION CSS**************************/
