@@ -47,7 +47,7 @@ var swiper = new Swiper(".mySwiper", {
       freeMode: true,
       watchSlidesProgress: true,
       thumbs: {
-        swiper: swiper,
+        //swiper: swiper,
       },
        autoplay: {
         delay: 2500,

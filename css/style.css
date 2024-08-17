@@ -13,6 +13,7 @@
 	--gray-color:#474D70;
 	--light-white:#E5E5E5;
 	--yellow-color:#c5b425;
+	--cyan-color:#00ffff;
 	--color-1:#FFC3FE;
 	--color-2:#FFE6BA; 
 	--color-3:#ADDAFF;
@@ -1130,12 +1131,12 @@ body{
 }
 
 .mySwiper2 {
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
 .mySwiper {
-    height: 20%;
+    height: 100%;
     box-sizing: border-box;
     padding: 10px 0;
 }
@@ -1146,9 +1147,9 @@ body{
     opacity: 0.4;
 }
 
-.mySwiper .swiper-slide-thumb-active {
+.mySwiper .swiper-slide-active {
       opacity: 1;
-    }
+}
 
 .swiper-slide img {
     object-fit: cover;
@@ -1186,27 +1187,31 @@ body{
 }
 
 .testomonial-container .content .rating{
+	display: flex;
+	justify-content: space-between;
+}
+
+.testomonial-container .content .rating .icon{
 	color: var(--yellow-color);
 }
 
-.testomonial-container .testomonial-img{
+.testomonial-container .content .rating .quote-icon{
+	font-size: 4rem;
+	color: var(--cyan-color);
+}
+
+.testomonial-container .testomonial-img img{
     height: 80px;
     width: 80px;
     border-radius: 50%;
 }
 
-.testomonial-container .testomonial-img img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-}
-
-.swiper-slide-thumb-active .testomonial-img{
+.swiper-slide-active .testomonial-img{
     height: 100px;
     width: 100px;
 }
 
-.swiper-slide-thumb-active  .testomonial-img img{
+.swiper-slide-active .testomonial-img img{
     height: 100%;
     width: 100%; 
 }
@@ -1214,6 +1219,7 @@ body{
 @media only screen and (max-width: 768px){
 .testomonial-container {
     flex-direction: column;
+    grid-gap: 10px;
 }
 
 .testomonial-container .content{
@@ -1221,17 +1227,28 @@ body{
     padding: 20px 10px;
 }
 
-.testomonial-container .testomonial-img{
-    height: 40px;
-    width: 40px;
+.testomonial-container .content .rating{
+	
+	flex-direction: column;
+	grid-gap: 20px;
 }
 
-.swiper-slide-thumb-active .testomonial-img{
-    height: 60px;
-    width: 60px;
+.testomonial-container .content .rating .quote-icon{
+	font-size: 2.5rem;
 }
 
-.swiper-slide-thumb-active  .testomonial-img img{
+.testomonial-container .testomonial-img img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.swiper-slide-active .testomonial-img{
+    height: 70px;
+    width: 70px;
+}
+
+.swiper-slide-active .testomonial-img img{
     height: 100%;
     width: 100%; 
 }
