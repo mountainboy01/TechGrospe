@@ -1603,7 +1603,17 @@ color: var(--primary-color);
 	flex-wrap: wrap;
 	justify-content: flex-start;
 	align-items: center;
-	grid-gap: 20px;
+	grid-gap: 25px;
+}
+
+.contact .row .col .form .input-box .radio .radio-box{
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+}
+
+.contact .row .col .form .input-box .radio .radio-box input[type="radio"]{
+	accent-color:var(--blue-color);
 }
 
 .contact .row .col .form .input-box .radio label{
